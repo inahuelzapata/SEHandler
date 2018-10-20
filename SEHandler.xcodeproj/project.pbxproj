@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7486AD9191733D868BCFF65B /* Pods_SEHandler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C151D275029B8767D93846D /* Pods_SEHandler.framework */; };
+		89C2A66BB3D1F27597D6A868 /* Pods_SEHandlerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4001F0DB9ACAD427778B454E /* Pods_SEHandlerTests.framework */; };
 		CEA879DC217BCD6C007A264E /* SEHandler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA879D2217BCD6C007A264E /* SEHandler.framework */; };
-		CEA879E1217BCD6C007A264E /* SEHandlerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA879E0217BCD6C007A264E /* SEHandlerTests.swift */; };
 		CEA879E3217BCD6C007A264E /* SEHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = CEA879D5217BCD6C007A264E /* SEHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CEA879F0217BD042007A264E /* SEHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA879EF217BD042007A264E /* SEHandler.swift */; };
 		CEA879F3217BD279007A264E /* ErrorLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA879F2217BD279007A264E /* ErrorLogger.swift */; };
 		CEA879F5217BD287007A264E /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA879F4217BD287007A264E /* LogLevel.swift */; };
 		CEA879F8217BD4E7007A264E /* LogAppender.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA879F7217BD4E7007A264E /* LogAppender.swift */; };
+		CEA87A04217BD604007A264E /* LogLevelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA87A03217BD604007A264E /* LogLevelTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,16 +29,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		14B2ED7F1DC10BAEAB27CFEF /* Pods-SEHandlerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SEHandlerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SEHandlerTests/Pods-SEHandlerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2C151D275029B8767D93846D /* Pods_SEHandler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SEHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4001F0DB9ACAD427778B454E /* Pods_SEHandlerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SEHandlerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		48613C52F4EF8EF220CD1ECD /* Pods-SEHandlerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SEHandlerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SEHandlerTests/Pods-SEHandlerTests.release.xcconfig"; sourceTree = "<group>"; };
 		CEA879D2217BCD6C007A264E /* SEHandler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SEHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA879D5217BCD6C007A264E /* SEHandler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEHandler.h; sourceTree = "<group>"; };
 		CEA879D6217BCD6C007A264E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEA879DB217BCD6C007A264E /* SEHandlerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SEHandlerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEA879E0217BCD6C007A264E /* SEHandlerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEHandlerTests.swift; sourceTree = "<group>"; };
 		CEA879E2217BCD6C007A264E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEA879EF217BD042007A264E /* SEHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEHandler.swift; sourceTree = "<group>"; };
 		CEA879F2217BD279007A264E /* ErrorLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorLogger.swift; sourceTree = "<group>"; };
 		CEA879F4217BD287007A264E /* LogLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogLevel.swift; sourceTree = "<group>"; };
 		CEA879F7217BD4E7007A264E /* LogAppender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogAppender.swift; sourceTree = "<group>"; };
+		CEA87A02217BD603007A264E /* SEHandlerTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SEHandlerTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		CEA87A03217BD604007A264E /* LogLevelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogLevelTests.swift; sourceTree = "<group>"; };
+		DBC74E421084DCC9074FD332 /* Pods-SEHandler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SEHandler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SEHandler/Pods-SEHandler.debug.xcconfig"; sourceTree = "<group>"; };
+		DF4A5F57D8589CBEA0BCA085 /* Pods-SEHandler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SEHandler.release.xcconfig"; path = "Pods/Target Support Files/Pods-SEHandler/Pods-SEHandler.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7486AD9191733D868BCFF65B /* Pods_SEHandler.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,18 +62,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEA879DC217BCD6C007A264E /* SEHandler.framework in Frameworks */,
+				89C2A66BB3D1F27597D6A868 /* Pods_SEHandlerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE25111CA5D481B90E04125E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C151D275029B8767D93846D /* Pods_SEHandler.framework */,
+				4001F0DB9ACAD427778B454E /* Pods_SEHandlerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CEA879C8217BCD6C007A264E = {
 			isa = PBXGroup;
 			children = (
 				CEA879D4217BCD6C007A264E /* SEHandler */,
 				CEA879DF217BCD6C007A264E /* SEHandlerTests */,
 				CEA879D3217BCD6C007A264E /* Products */,
+				FB0BEC831B154BFF1ABF1EB4 /* Pods */,
+				AE25111CA5D481B90E04125E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,8 +112,10 @@
 		CEA879DF217BCD6C007A264E /* SEHandlerTests */ = {
 			isa = PBXGroup;
 			children = (
-				CEA879E0217BCD6C007A264E /* SEHandlerTests.swift */,
-				CEA879E2217BCD6C007A264E /* Info.plist */,
+				CEA879FC217BD5CA007A264E /* Error */,
+				CEA879FD217BD5CF007A264E /* Handler */,
+				CEA879FE217BD5D3007A264E /* Logger */,
+				CEA879FB217BD5C3007A264E /* Shared */,
 			);
 			path = SEHandlerTests;
 			sourceTree = "<group>";
@@ -154,6 +178,72 @@
 			path = LogLevel;
 			sourceTree = "<group>";
 		};
+		CEA879FB217BD5C3007A264E /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				CEA879E2217BCD6C007A264E /* Info.plist */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		CEA879FC217BD5CA007A264E /* Error */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		CEA879FD217BD5CF007A264E /* Handler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Handler;
+			sourceTree = "<group>";
+		};
+		CEA879FE217BD5D3007A264E /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				CEA879FF217BD5D7007A264E /* Appender */,
+				CEA87A00217BD5DC007A264E /* Logger */,
+				CEA87A01217BD5E0007A264E /* LogLevel */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		CEA879FF217BD5D7007A264E /* Appender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Appender;
+			sourceTree = "<group>";
+		};
+		CEA87A00217BD5DC007A264E /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+		CEA87A01217BD5E0007A264E /* LogLevel */ = {
+			isa = PBXGroup;
+			children = (
+				CEA87A03217BD604007A264E /* LogLevelTests.swift */,
+				CEA87A02217BD603007A264E /* SEHandlerTests-Bridging-Header.h */,
+			);
+			path = LogLevel;
+			sourceTree = "<group>";
+		};
+		FB0BEC831B154BFF1ABF1EB4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DBC74E421084DCC9074FD332 /* Pods-SEHandler.debug.xcconfig */,
+				DF4A5F57D8589CBEA0BCA085 /* Pods-SEHandler.release.xcconfig */,
+				14B2ED7F1DC10BAEAB27CFEF /* Pods-SEHandlerTests.debug.xcconfig */,
+				48613C52F4EF8EF220CD1ECD /* Pods-SEHandlerTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -172,6 +262,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEA879E6217BCD6C007A264E /* Build configuration list for PBXNativeTarget "SEHandler" */;
 			buildPhases = (
+				24D4B209A5F74C8BA982016F /* [CP] Check Pods Manifest.lock */,
 				CEA879CD217BCD6C007A264E /* Sources */,
 				CEA879CE217BCD6C007A264E /* Frameworks */,
 				CEA879CF217BCD6C007A264E /* Headers */,
@@ -190,9 +281,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEA879E9217BCD6C007A264E /* Build configuration list for PBXNativeTarget "SEHandlerTests" */;
 			buildPhases = (
+				DE5662F981785BB089B0BEBC /* [CP] Check Pods Manifest.lock */,
 				CEA879D7217BCD6C007A264E /* Sources */,
 				CEA879D8217BCD6C007A264E /* Frameworks */,
 				CEA879D9217BCD6C007A264E /* Resources */,
+				E7638249B48AB66911915ED3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -220,6 +313,7 @@
 					};
 					CEA879DA217BCD6C007A264E = {
 						CreatedOnToolsVersion = 9.4.1;
+						LastSwiftMigration = 0940;
 					};
 				};
 			};
@@ -258,6 +352,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24D4B209A5F74C8BA982016F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SEHandler-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DE5662F981785BB089B0BEBC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SEHandlerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7638249B48AB66911915ED3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SEHandlerTests/Pods-SEHandlerTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Nimble/Nimble.framework",
+				"${BUILT_PRODUCTS_DIR}/Tagged/Tagged.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Nimble.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Tagged.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SEHandlerTests/Pods-SEHandlerTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEA879CD217BCD6C007A264E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -274,7 +427,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA879E1217BCD6C007A264E /* SEHandlerTests.swift in Sources */,
+				CEA87A04217BD604007A264E /* LogLevelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -411,12 +564,13 @@
 		};
 		CEA879E7217BCD6C007A264E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBC74E421084DCC9074FD332 /* Pods-SEHandler.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = HD4RY723TL;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -429,6 +583,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.iNahuelZapata.SEHandler;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -438,12 +593,13 @@
 		};
 		CEA879E8217BCD6C007A264E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF4A5F57D8589CBEA0BCA085 /* Pods-SEHandler.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = HD4RY723TL;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -456,6 +612,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.iNahuelZapata.SEHandler;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -464,11 +621,13 @@
 		};
 		CEA879EA217BCD6C007A264E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14B2ED7F1DC10BAEAB27CFEF /* Pods-SEHandlerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HD4RY723TL;
-				INFOPLIST_FILE = SEHandlerTests/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SEHandlerTests/Shared/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -476,6 +635,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.iNahuelZapata.SEHandlerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SEHandlerTests/Logger/LogLevel/SEHandlerTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -483,11 +645,13 @@
 		};
 		CEA879EB217BCD6C007A264E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48613C52F4EF8EF220CD1ECD /* Pods-SEHandlerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = HD4RY723TL;
-				INFOPLIST_FILE = SEHandlerTests/Info.plist;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = SEHandlerTests/Shared/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -495,6 +659,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.iNahuelZapata.SEHandlerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SEHandlerTests/Logger/LogLevel/SEHandlerTests-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
