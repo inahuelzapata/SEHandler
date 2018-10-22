@@ -1,0 +1,6 @@
+framework module Pods_SEHandler {
+  umbrella header "Pods-SEHandler-umbrella.h"
+
+  export *
+  module * { export * }
+}
