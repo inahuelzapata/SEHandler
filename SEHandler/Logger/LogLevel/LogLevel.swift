@@ -24,12 +24,16 @@ enum LogLevel: LoggableLevel {
         switch self {
         case .default:
             return .default
+
         case .info:
             return .info
+
         case .debug:
             return .debug
+
         case .error:
             return .error
+
         case .fault:
             return .fault
         }
