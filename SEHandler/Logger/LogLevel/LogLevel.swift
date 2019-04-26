@@ -7,53 +7,31 @@
 //
 
 import Foundation
+import os
 
-public enum LogLevel: Int, CustomStringConvertible {
-    case trace = 0
-    case debug = 1
-    case info = 2
-    case warning = 3
-    case error = 4
-    case fatal = 5
-    case off = 6
+protocol LoggableLevel {
+    var osLevel: OSLogType { get }
+}
 
-    public init?(_ stringValue: String) {
-        switch stringValue.lowercased() {
-        case LogLevel.trace.description:
-            self = .trace
-        case LogLevel.debug.description:
-            self = .debug
-        case LogLevel.info.description:
-            self = .info
-        case LogLevel.warning.description:
-            self = .warning
-        case LogLevel.error.description:
-            self = .error
-        case LogLevel.fatal.description:
-            self = .fatal
-        case LogLevel.off.description:
-            self = .off
-        default:
-            return nil
-        }
-    }
+enum LogLevel: LoggableLevel {
+    case `default`
+    case info
+    case debug
+    case error
+    case fault
 
-    public var description: String {
+    var osLevel: OSLogType {
         switch self {
-        case .trace:
-            return "trace"
-        case .debug:
-            return "debug"
+        case .default:
+            return .default
         case .info:
-            return "info"
-        case .warning:
-            return "warning"
+            return .info
+        case .debug:
+            return .debug
         case .error:
-            return "error"
-        case .fatal:
-            return "fatal"
-        case .off:
-            return "off"
+            return .error
+        case .fault:
+            return .fault
         }
     }
 }

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AF7B2D12273C585009D1C54 /* Taggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF7B2D02273C585009D1C54 /* Taggable.swift */; };
+		2AF7B2D42273C604009D1C54 /* PhantomError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF7B2D32273C604009D1C54 /* PhantomError.swift */; };
 		7486AD9191733D868BCFF65B /* Pods_SEHandler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C151D275029B8767D93846D /* Pods_SEHandler.framework */; };
 		89C2A66BB3D1F27597D6A868 /* Pods_SEHandlerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4001F0DB9ACAD427778B454E /* Pods_SEHandlerTests.framework */; };
 		CEA879DC217BCD6C007A264E /* SEHandler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA879D2217BCD6C007A264E /* SEHandler.framework */; };
@@ -14,12 +16,6 @@
 		CEA879F0217BD042007A264E /* SEHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA879EF217BD042007A264E /* SEHandler.swift */; };
 		CEA879F3217BD279007A264E /* ErrorLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA879F2217BD279007A264E /* ErrorLogger.swift */; };
 		CEA879F5217BD287007A264E /* LogLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA879F4217BD287007A264E /* LogLevel.swift */; };
-		CEA879F8217BD4E7007A264E /* LogAppender.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA879F7217BD4E7007A264E /* LogAppender.swift */; };
-		CEA87A04217BD604007A264E /* LogLevelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA87A03217BD604007A264E /* LogLevelTests.swift */; };
-		CEEB7BDE217CF78A0036E6A4 /* LogInfoKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB7BDD217CF78A0036E6A4 /* LogInfoKeys.swift */; };
-		CEEB7BE1217CFF830036E6A4 /* Formatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB7BE0217CFF830036E6A4 /* Formatter.swift */; };
-		CEEB7BE3217CFFB60036E6A4 /* SEFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB7BE2217CFFB60036E6A4 /* SEFormatter.swift */; };
-		CEEB7BE9217D036A0036E6A4 /* Thread.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB7BE8217D036A0036E6A4 /* Thread.swift */; };
 		CEEB7BED217D4AF30036E6A4 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEEB7BEC217D4AF30036E6A4 /* String+Extension.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +31,8 @@
 
 /* Begin PBXFileReference section */
 		14B2ED7F1DC10BAEAB27CFEF /* Pods-SEHandlerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SEHandlerTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SEHandlerTests/Pods-SEHandlerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2AF7B2D02273C585009D1C54 /* Taggable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Taggable.swift; sourceTree = "<group>"; };
+		2AF7B2D32273C604009D1C54 /* PhantomError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhantomError.swift; sourceTree = "<group>"; };
 		2C151D275029B8767D93846D /* Pods_SEHandler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SEHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4001F0DB9ACAD427778B454E /* Pods_SEHandlerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SEHandlerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		48613C52F4EF8EF220CD1ECD /* Pods-SEHandlerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SEHandlerTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SEHandlerTests/Pods-SEHandlerTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -46,13 +44,6 @@
 		CEA879EF217BD042007A264E /* SEHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEHandler.swift; sourceTree = "<group>"; };
 		CEA879F2217BD279007A264E /* ErrorLogger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorLogger.swift; sourceTree = "<group>"; };
 		CEA879F4217BD287007A264E /* LogLevel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogLevel.swift; sourceTree = "<group>"; };
-		CEA879F7217BD4E7007A264E /* LogAppender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogAppender.swift; sourceTree = "<group>"; };
-		CEA87A02217BD603007A264E /* SEHandlerTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SEHandlerTests-Bridging-Header.h"; sourceTree = "<group>"; };
-		CEA87A03217BD604007A264E /* LogLevelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogLevelTests.swift; sourceTree = "<group>"; };
-		CEEB7BDD217CF78A0036E6A4 /* LogInfoKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInfoKeys.swift; sourceTree = "<group>"; };
-		CEEB7BE0217CFF830036E6A4 /* Formatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatter.swift; sourceTree = "<group>"; };
-		CEEB7BE2217CFFB60036E6A4 /* SEFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEFormatter.swift; sourceTree = "<group>"; };
-		CEEB7BE8217D036A0036E6A4 /* Thread.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thread.swift; sourceTree = "<group>"; };
 		CEEB7BEC217D4AF30036E6A4 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		DBC74E421084DCC9074FD332 /* Pods-SEHandler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SEHandler.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SEHandler/Pods-SEHandler.debug.xcconfig"; sourceTree = "<group>"; };
 		DF4A5F57D8589CBEA0BCA085 /* Pods-SEHandler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SEHandler.release.xcconfig"; path = "Pods/Target Support Files/Pods-SEHandler/Pods-SEHandler.release.xcconfig"; sourceTree = "<group>"; };
@@ -79,6 +70,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2AF7B2CF2273C574009D1C54 /* Taggable */ = {
+			isa = PBXGroup;
+			children = (
+				2AF7B2D02273C585009D1C54 /* Taggable.swift */,
+			);
+			path = Taggable;
+			sourceTree = "<group>";
+		};
+		2AF7B2D22273C5E7009D1C54 /* PhantomError */ = {
+			isa = PBXGroup;
+			children = (
+				2AF7B2D32273C604009D1C54 /* PhantomError.swift */,
+			);
+			path = PhantomError;
+			sourceTree = "<group>";
+		};
 		AE25111CA5D481B90E04125E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -124,9 +131,6 @@
 		CEA879DF217BCD6C007A264E /* SEHandlerTests */ = {
 			isa = PBXGroup;
 			children = (
-				CEA879FC217BD5CA007A264E /* Error */,
-				CEA879FD217BD5CF007A264E /* Handler */,
-				CEA879FE217BD5D3007A264E /* Logger */,
 				CEA879FB217BD5C3007A264E /* Shared */,
 			);
 			path = SEHandlerTests;
@@ -143,6 +147,7 @@
 		CEA879ED217BCD7C007A264E /* Error */ = {
 			isa = PBXGroup;
 			children = (
+				2AF7B2D22273C5E7009D1C54 /* PhantomError */,
 			);
 			path = Error;
 			sourceTree = "<group>";
@@ -159,20 +164,10 @@
 		CEA879F1217BD269007A264E /* Logger */ = {
 			isa = PBXGroup;
 			children = (
-				CEEB7BDF217CFF780036E6A4 /* Formatter */,
 				CEA879FA217BD505007A264E /* LogLevel */,
 				CEA879F9217BD4F5007A264E /* Logger */,
-				CEA879F6217BD4DB007A264E /* Appender */,
 			);
 			path = Logger;
-			sourceTree = "<group>";
-		};
-		CEA879F6217BD4DB007A264E /* Appender */ = {
-			isa = PBXGroup;
-			children = (
-				CEA879F7217BD4E7007A264E /* LogAppender.swift */,
-			);
-			path = Appender;
 			sourceTree = "<group>";
 		};
 		CEA879F9217BD4F5007A264E /* Logger */ = {
@@ -199,85 +194,20 @@
 			path = Shared;
 			sourceTree = "<group>";
 		};
-		CEA879FC217BD5CA007A264E /* Error */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Error;
-			sourceTree = "<group>";
-		};
-		CEA879FD217BD5CF007A264E /* Handler */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Handler;
-			sourceTree = "<group>";
-		};
-		CEA879FE217BD5D3007A264E /* Logger */ = {
-			isa = PBXGroup;
-			children = (
-				CEA879FF217BD5D7007A264E /* Appender */,
-				CEA87A00217BD5DC007A264E /* Logger */,
-				CEA87A01217BD5E0007A264E /* LogLevel */,
-			);
-			path = Logger;
-			sourceTree = "<group>";
-		};
-		CEA879FF217BD5D7007A264E /* Appender */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Appender;
-			sourceTree = "<group>";
-		};
-		CEA87A00217BD5DC007A264E /* Logger */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Logger;
-			sourceTree = "<group>";
-		};
-		CEA87A01217BD5E0007A264E /* LogLevel */ = {
-			isa = PBXGroup;
-			children = (
-				CEA87A03217BD604007A264E /* LogLevelTests.swift */,
-				CEA87A02217BD603007A264E /* SEHandlerTests-Bridging-Header.h */,
-			);
-			path = LogLevel;
-			sourceTree = "<group>";
-		};
 		CEEB7BDC217CBA770036E6A4 /* Log */ = {
 			isa = PBXGroup;
 			children = (
-				CEEB7BDD217CF78A0036E6A4 /* LogInfoKeys.swift */,
 			);
 			path = Log;
-			sourceTree = "<group>";
-		};
-		CEEB7BDF217CFF780036E6A4 /* Formatter */ = {
-			isa = PBXGroup;
-			children = (
-				CEEB7BE0217CFF830036E6A4 /* Formatter.swift */,
-				CEEB7BE2217CFFB60036E6A4 /* SEFormatter.swift */,
-			);
-			path = Formatter;
 			sourceTree = "<group>";
 		};
 		CEEB7BE6217D034B0036E6A4 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				2AF7B2CF2273C574009D1C54 /* Taggable */,
 				CEEB7BEB217D4AD50036E6A4 /* Extensions */,
-				CEEB7BEA217D4ACD0036E6A4 /* Thread */,
 			);
 			path = Utils;
-			sourceTree = "<group>";
-		};
-		CEEB7BEA217D4ACD0036E6A4 /* Thread */ = {
-			isa = PBXGroup;
-			children = (
-				CEEB7BE8217D036A0036E6A4 /* Thread.swift */,
-			);
-			path = Thread;
 			sourceTree = "<group>";
 		};
 		CEEB7BEB217D4AD50036E6A4 /* Extensions */ = {
@@ -462,7 +392,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n\n";
+			shellScript = "if which swiftlint >/dev/null; then\n    swiftlint\nelse\n    echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n\n";
 		};
 		DE5662F981785BB089B0BEBC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -509,15 +439,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEEB7BE1217CFF830036E6A4 /* Formatter.swift in Sources */,
 				CEEB7BED217D4AF30036E6A4 /* String+Extension.swift in Sources */,
+				2AF7B2D12273C585009D1C54 /* Taggable.swift in Sources */,
 				CEA879F3217BD279007A264E /* ErrorLogger.swift in Sources */,
-				CEA879F8217BD4E7007A264E /* LogAppender.swift in Sources */,
-				CEEB7BDE217CF78A0036E6A4 /* LogInfoKeys.swift in Sources */,
 				CEA879F5217BD287007A264E /* LogLevel.swift in Sources */,
 				CEA879F0217BD042007A264E /* SEHandler.swift in Sources */,
-				CEEB7BE3217CFFB60036E6A4 /* SEFormatter.swift in Sources */,
-				CEEB7BE9217D036A0036E6A4 /* Thread.swift in Sources */,
+				2AF7B2D42273C604009D1C54 /* PhantomError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -525,7 +452,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CEA87A04217BD604007A264E /* LogLevelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

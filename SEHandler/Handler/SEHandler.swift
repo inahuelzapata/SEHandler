@@ -8,6 +8,23 @@
 
 import Foundation
 
+public typealias Action = () -> Void
+public typealias ErrorAction = (FunctionMatcher, Action)
+
+public protocol FunctionMatcher {
+    var description: String { get }
+}
+
 protocol ErrorHandler {
-    var logger: ErrorLogger { get }
+    var loggers: [ErrorLogger] { get }
+
+    func handle(error: PhantomError, errorActions: [ErrorAction])
+}
+
+protocol ErrorHandlerContainer: ErrorHandler {
+    var handlers: [ErrorHandler] { get }
+}
+
+protocol Contextable {
+    var configuration: String { get }
 }
